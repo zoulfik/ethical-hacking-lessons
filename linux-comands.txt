@@ -1,0 +1,16 @@
+# Linux Commands - Lesson 1
+
+whoami        # معرفة اسم المستخدم
+pwd           # معرفة المكان الحالي
+ls            # عرض الملفات والمجلدات
+cd Downloads  # الدخول إلى مجلد التنزيلات
+cd ..         # الرجوع خطوة للخلف
+mkdir school  # إنشاء مجلد جديد
+touch lesson.txt  # إنشاء ملف جديد
+echo "Linux" > lesson.txt   # كتابة نص داخل ملف جديد
+echo "Kali" >> lesson.txt   # إضافة نص جديد تحت النص القديم
+cat lesson.txt  # عرض محتوى الملف
+cp lesson.txt backup.txt  # نسخ ملف
+mv backup.txt copy.txt    # تغيير اسم ملف
+rm old.txt      # حذف ملف
+rmdir empty     # حذف مجلد فارغ
